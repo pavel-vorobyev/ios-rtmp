@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAB31081C18ECF119DDEEFFC /* Pods_rtmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25221039AAABD702D7568920 /* Pods_rtmp.framework */; };
+		CF5BC2E02D2DF2104A2189AA /* Pods_rtmpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C6470661FF9E64DBACCA0E /* Pods_rtmpTests.framework */; };
 		D5A7424221A261DE003CCE80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A7424121A261DE003CCE80 /* AppDelegate.swift */; };
 		D5A7424421A261DE003CCE80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A7424321A261DE003CCE80 /* ViewController.swift */; };
 		D5A7424721A261DE003CCE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A7424521A261DE003CCE80 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		D5A7424C21A261E1003CCE80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A7424A21A261E1003CCE80 /* LaunchScreen.storyboard */; };
 		D5A7425721A261E1003CCE80 /* rtmpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A7425621A261E1003CCE80 /* rtmpTests.swift */; };
 		D5A7426221A261E1003CCE80 /* rtmpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A7426121A261E1003CCE80 /* rtmpUITests.swift */; };
+		FC9E8AC9D597A33BEDEAC2F9 /* Pods_rtmpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5871818A6D073CD0743CDC13 /* Pods_rtmpUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DBC9881CEB2ECFE50D408FB /* Pods-rtmpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rtmpUITests.release.xcconfig"; path = "Target Support Files/Pods-rtmpUITests/Pods-rtmpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BC598B0F9F6239ADDF3A862 /* Pods-rtmpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rtmpTests.release.xcconfig"; path = "Target Support Files/Pods-rtmpTests/Pods-rtmpTests.release.xcconfig"; sourceTree = "<group>"; };
+		20C6470661FF9E64DBACCA0E /* Pods_rtmpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rtmpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25221039AAABD702D7568920 /* Pods_rtmp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rtmp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5871818A6D073CD0743CDC13 /* Pods_rtmpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rtmpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		715BEFD22B3F61B54B9B8BA9 /* Pods-rtmpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rtmpUITests.debug.xcconfig"; path = "Target Support Files/Pods-rtmpUITests/Pods-rtmpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E81752608E4CBF8ED51BCEF /* Pods-rtmp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rtmp.debug.xcconfig"; path = "Target Support Files/Pods-rtmp/Pods-rtmp.debug.xcconfig"; sourceTree = "<group>"; };
 		D5A7423E21A261DE003CCE80 /* rtmp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rtmp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A7424121A261DE003CCE80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5A7424321A261DE003CCE80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,9 @@
 		D5A7425D21A261E1003CCE80 /* rtmpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rtmpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A7426121A261E1003CCE80 /* rtmpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rtmpUITests.swift; sourceTree = "<group>"; };
 		D5A7426321A261E1003CCE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B0497D21A26A6500997D85 /* rtmp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rtmp.entitlements; sourceTree = "<group>"; };
+		DD1E5AF72B3B1213ACF7E587 /* Pods-rtmpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rtmpTests.debug.xcconfig"; path = "Target Support Files/Pods-rtmpTests/Pods-rtmpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFC0FC835CF7137B48409C04 /* Pods-rtmp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rtmp.release.xcconfig"; path = "Target Support Files/Pods-rtmp/Pods-rtmp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB31081C18ECF119DDEEFFC /* Pods_rtmp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5BC2E02D2DF2104A2189AA /* Pods_rtmpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9E8AC9D597A33BEDEAC2F9 /* Pods_rtmpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0141E7CFD23CDED859596D29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E81752608E4CBF8ED51BCEF /* Pods-rtmp.debug.xcconfig */,
+				FFC0FC835CF7137B48409C04 /* Pods-rtmp.release.xcconfig */,
+				DD1E5AF72B3B1213ACF7E587 /* Pods-rtmpTests.debug.xcconfig */,
+				1BC598B0F9F6239ADDF3A862 /* Pods-rtmpTests.release.xcconfig */,
+				715BEFD22B3F61B54B9B8BA9 /* Pods-rtmpUITests.debug.xcconfig */,
+				0DBC9881CEB2ECFE50D408FB /* Pods-rtmpUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A309B395AB878FF8237D1690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25221039AAABD702D7568920 /* Pods_rtmp.framework */,
+				20C6470661FF9E64DBACCA0E /* Pods_rtmpTests.framework */,
+				5871818A6D073CD0743CDC13 /* Pods_rtmpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5A7423521A261DE003CCE80 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				D5A7425521A261E1003CCE80 /* rtmpTests */,
 				D5A7426021A261E1003CCE80 /* rtmpUITests */,
 				D5A7423F21A261DE003CCE80 /* Products */,
+				0141E7CFD23CDED859596D29 /* Pods */,
+				A309B395AB878FF8237D1690 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +138,7 @@
 		D5A7424021A261DE003CCE80 /* rtmp */ = {
 			isa = PBXGroup;
 			children = (
+				D5B0497D21A26A6500997D85 /* rtmp.entitlements */,
 				D5A7424121A261DE003CCE80 /* AppDelegate.swift */,
 				D5A7424321A261DE003CCE80 /* ViewController.swift */,
 				D5A7424521A261DE003CCE80 /* Main.storyboard */,
@@ -132,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5A7426621A261E1003CCE80 /* Build configuration list for PBXNativeTarget "rtmp" */;
 			buildPhases = (
+				DE5D8B16AFF9524626DC3E61 /* [CP] Check Pods Manifest.lock */,
 				D5A7423A21A261DE003CCE80 /* Sources */,
 				D5A7423B21A261DE003CCE80 /* Frameworks */,
 				D5A7423C21A261DE003CCE80 /* Resources */,
+				D777157776678655766A8C44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5A7426921A261E1003CCE80 /* Build configuration list for PBXNativeTarget "rtmpTests" */;
 			buildPhases = (
+				F739B0D6736222DA58C317E3 /* [CP] Check Pods Manifest.lock */,
 				D5A7424E21A261E1003CCE80 /* Sources */,
 				D5A7424F21A261E1003CCE80 /* Frameworks */,
 				D5A7425021A261E1003CCE80 /* Resources */,
@@ -167,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5A7426C21A261E1003CCE80 /* Build configuration list for PBXNativeTarget "rtmpUITests" */;
 			buildPhases = (
+				F69704A5D0841144CC11ACEA /* [CP] Check Pods Manifest.lock */,
 				D5A7425921A261E1003CCE80 /* Sources */,
 				D5A7425A21A261E1003CCE80 /* Frameworks */,
 				D5A7425B21A261E1003CCE80 /* Resources */,
@@ -193,6 +239,11 @@
 				TargetAttributes = {
 					D5A7423D21A261DE003CCE80 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
 					};
 					D5A7425121A261E1003CCE80 = {
 						CreatedOnToolsVersion = 10.1;
@@ -250,6 +301,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D777157776678655766A8C44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rtmp/Pods-rtmp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HaishinKit/HaishinKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Logboard/Logboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HaishinKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rtmp/Pods-rtmp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE5D8B16AFF9524626DC3E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rtmp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69704A5D0841144CC11ACEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rtmpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F739B0D6736222DA58C317E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rtmpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5A7423A21A261DE003CCE80 /* Sources */ = {
@@ -430,40 +574,51 @@
 		};
 		D5A7426721A261E1003CCE80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E81752608E4CBF8ED51BCEF /* Pods-rtmp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75D4SSQM3G;
 				INFOPLIST_FILE = rtmp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "maflic-inc.rtmp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D5A7426821A261E1003CCE80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC0FC835CF7137B48409C04 /* Pods-rtmp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75D4SSQM3G;
 				INFOPLIST_FILE = rtmp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "maflic-inc.rtmp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		D5A7426A21A261E1003CCE80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1E5AF72B3B1213ACF7E587 /* Pods-rtmpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +639,7 @@
 		};
 		D5A7426B21A261E1003CCE80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC598B0F9F6239ADDF3A862 /* Pods-rtmpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +660,7 @@
 		};
 		D5A7426D21A261E1003CCE80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715BEFD22B3F61B54B9B8BA9 /* Pods-rtmpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +680,7 @@
 		};
 		D5A7426E21A261E1003CCE80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBC9881CEB2ECFE50D408FB /* Pods-rtmpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

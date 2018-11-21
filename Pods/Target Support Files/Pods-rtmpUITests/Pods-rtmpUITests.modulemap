@@ -1,0 +1,6 @@
+framework module Pods_rtmpUITests {
+  umbrella header "Pods-rtmpUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
